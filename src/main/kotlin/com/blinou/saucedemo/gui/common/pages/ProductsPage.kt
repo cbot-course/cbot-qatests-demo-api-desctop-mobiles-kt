@@ -12,7 +12,7 @@ class ProductsPage: AbstractPage {
     @FindBy(id = "inventory_container")
     private lateinit var inventoryContainer: ExtendedWebElement
 
-    @FindBy(id = "header_containerr")
+    @FindBy(id = "header_container")
     private lateinit var header: Header
 
     constructor(driver: WebDriver) : super(driver) {
